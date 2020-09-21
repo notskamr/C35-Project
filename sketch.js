@@ -27,10 +27,10 @@ function setup() {
  
   var dogo = database.ref('Food');
   dogo.on("value", readPosition, showError);
-  feed = createButton("FEED DRAGO")
+  feed = createButton("Feed the Dog")
   feed.position(500,15)
   feed.mousePressed(FeedDog)
-  add = createButton("ADD FOOD")
+  add = createButton("Add Milk")
   add.position(400,15)
   add.mousePressed(AddFood)
 
